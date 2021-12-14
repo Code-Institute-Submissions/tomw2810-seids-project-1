@@ -3,50 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/********** NAVIGATION **********/
+
+
+nav {
+	background-color: #53BF9F;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+nav ul {
+	float: right;
+	display: block;
+	position: relative;
+	margin: 45px 30px;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+nav img.logo {
+	margin: 30px;
+	height: auto;
+	width: 160px;
+}
+
+/********** HEADER **********/
+
 header {
+	display: block;
+	position: relative;
     height: 80vh;
     background-image: url(../images/header-bg.png);
     background-size: cover;
     background-position: center;
 }
-/****** Navigation ******/
-
-header ul {
-    float: right;
-	margin-right: 30px
-}
-header ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 24px;
-}
-header ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-header img.logo {
-    width: 160px;
-    height: auto;
-    margin: 30px 60px;
-	line-height: 75px;
-}
-#menu img, #menu ul {
-	line-height: 75px;
-}
-/****** Header Description ******/
 
 .header-description {
-    padding-left: 120px;
+    width: 80%;
+	margin: 0 auto;
 }
-.header-image {
-    float: right;
-    padding-right: 120px;
+.header-description h1 {
+	display: block;
+	float: left;
+	position: relative;
 }
-.header-image img {
-    margin-right: 60px;
-    width: 400px;
-    position: relative;
-    margin-top: -144px;
+.header-description img {
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	margin-top: -160px;
+	margin-right: 60px;
 }
 h1 {
     color: #fff;
@@ -59,7 +71,7 @@ p.header {
     color: #fff;
     margin: 0;
     padding: 0;
-    width: 40%;
+    width: 50%;
     line-height: 1.4;
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     letter-spacing: 0.4px;
@@ -87,8 +99,11 @@ button.primary, button.secondary {
 /****** Seed Selection *******/
 
 #seed-selection {
-    clear: both;
-    margin-top: 120px;
+	display: block;
+	position: relative;
+    width: 100%;
+	clear: both;
+	margin-top: 100px;
 }
 h2{
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -103,40 +118,39 @@ p.seed-selection {
 }
 /* Card Container */
 .card-container {
+	display: block;
     width: 100%;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 .card {
+	display: block;
+	position: relative;
 	width: 25%; 
     float: left;
 	text-align: center;
     box-sizing: border-box;
+	margin-bottom: 100px;
 }
 .card img {
     width: 35%;
     margin: 0 auto;
 }
-h3 {
+.card h3 {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+	margin-top: 20px;
+	font-weight: normal;
 }
-#seasonal-tip {
-    background-image: url(images/season-tip-bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 75%;
-    clear: both;
-}
-#seasonal-tip p {
-    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-    width: 60%;
-}
+
+
+
+/******* FOOTER *******/
+
 footer {
     background-color: #725647;
     margin-top: 80px;
-    padding: 60px;
-    
+    padding: 60px; 
+	clear: both;
 }
 .footer-logo {
     width: 100%;
@@ -147,22 +161,76 @@ footer {
     margin: 0 auto;
 }
 .footer-links {
-    margin-top: 50px;
+	margin-top: 60px;
 }
-.footer-links h3 {
-    color: #fff;
-    margin-bottom: 12px;
+.useful-links {
+	display: inline-block;
+	width: 33%;
 }
-footer ul {
-    list-style: none;
-    display: inline-block;
-    width: 33%;
+.useful-links h3 {
+	color: #fff;
+	margin-bottom: 20px;
 }
-footer ul li {
-    margin-bottom: 10px;
-    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+.useful-links ul {
+	list-style: none;
 }
-footer ul li a {
-    text-decoration: none;
-    color: #fff;
+.useful-links ul li {
+	margin-bottom: 8px;
+}
+.useful-links ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+span.icon img {
+	height: 20px;
+	margin-right:12px;
+}
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 12px;
+}
+
+/* CONTACT US PAGE */
+
+#contact-section {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#contact-section h2 {
+	margin-bottom: 30px;
+}
+.input-field input{
+	width: 100%;
+	background-color: #41AA8B;
+	opacity: 0.1;
+	border: none;
+	height: 30px;
+	margin-bottom: 12px;
+	margin-top: 6px;
+}
+.input-field input[type=text] {
+  color: black;
+}
+textarea {
+	width: 100%;
+	background-color: #41AA8B;
+	opacity: 0.1; 
+	border: none;
+	height: 140px;
+	margin-top: 6px;
+}
+button.contact {
+	float: right;
+	display: block;
+	padding: 10px 16px;
+	border: none;
+	border-radius: 8px;
+	background-color: #53BF9F;
+	color: #fff;
+	margin-top: 20px;
 }
