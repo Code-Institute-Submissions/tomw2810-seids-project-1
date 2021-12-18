@@ -40,8 +40,6 @@ nav img.logo {
 /********** HEADER **********/
 
 header {
-	display: block;
-	position: relative;
     height: 90vh;
     background-image: url(../images/header-bg.png);
     background-size: cover;
@@ -50,24 +48,23 @@ header {
 
 .header-content {
     width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 .header-description {
-	width: 60%;
+	width: 100%;
 	float: left;
-}
-.header-description h1 {
-	font-size: 3rem;
-}
-.header-img {
-	width: 40%;
-	float: left;
+	display: block;
 }
 .header-description img {
 	display: block;
 	float: right;
-	position: relative;
 	width: 400px;
+	clear: right;
+	margin-top: -160px;
+	margin-right: 60px;
 }
+
 h1 {
     color: #fff;
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
