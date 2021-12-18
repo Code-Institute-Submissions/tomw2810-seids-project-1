@@ -89,62 +89,62 @@ I would also like to add something more interactive to make it more fun to use, 
   <h4>Header Image #1</h4>
   <p>Sourced from unsplash.com</p><br>
   <p>By Mockup Graphics</p><br>
-  <p><a href="https://unsplash.com/photos/sgmS2e95QO0"></a></p>
+  <p><a href="https://unsplash.com/photos/sgmS2e95QO0">Link to Photo</a></p>
 
   <h4>Header Image #2</h4>
     <p>Sourced from unsplash.com</p><br>
     <p>By Mockup Graphics</p><br>
-<a href="https://unsplash.com/photos/jHcKq383ibg"></a></p>
+<a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
 
 <h4>Header Image #3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/75AiRF5xm0U"></a></p>
+<a href="https://unsplash.com/photos/75AiRF5xm0U">Link to Photo</a></p>
 
 <h4>Header Image #4</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/bSaBd5RK4kA"></a></p>
+<a href="https://unsplash.com/photos/bSaBd5RK4kA">Link to Photo</a></p>
 <br>
 <hr>
 
 <h4>Veg Seeds Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/KfX5c9TxYPg"></a></p>
+<a href="https://unsplash.com/photos/KfX5c9TxYPg">Link to Photo</a></p>
 
 
 <h4>Veg Seeds Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/aptwTsQr3cQ"></a></p>
+<a href="https://unsplash.com/photos/aptwTsQr3cQ">Link to Photo</a></p>
 
 <h4>Veg Seeds Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/C6Y0-8ANnho"></a></p>
+<a href="https://unsplash.com/photos/C6Y0-8ANnho">Link to Photo</a></p>
 
 <h4>Veg Seeds Page Image 4</h4>
   <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/l55IGtwI8mI"></a></p>
+<a href="https://unsplash.com/photos/l55IGtwI8mI">Link to Photo</a></p>
 
 —————
 
 <h4>Fruit Seeds Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/haSJEJYzl5A"></a></p>
+<a href="https://unsplash.com/photos/haSJEJYzl5A">Link to Photo</a></p>
 
 <h4>Fruit Seeds Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/RLbly_gGSCA"></a></p>
+<a href="https://unsplash.com/photos/RLbly_gGSCA">Link to Photo</a></p>
 
 <h4>Fruit Seeds Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/ZBXPPacUsVs"></a></p>
+<a href="https://unsplash.com/photos/ZBXPPacUsVs">Link to Photo</a></p>
 
 <h4>Fruit Seeds Page Image 4</h4>
 <p>Sourced from unsplash.com<br>
@@ -156,13 +156,13 @@ By Mockup Graphics<br>
 <h4>About Page Image #1</h4>
 <p>Sourced from unsplash.com<br>
 By Markus Spiske<br>
-  <a href="https://unsplash.com/photos/4PG6wLlVag4"></a></p>
+  <a href="https://unsplash.com/photos/4PG6wLlVag4">Link to Photo</a></p>
 
 
 <h4>About Page Image #2</h4>
 <p>Sourced from unsplash.com<br>
 By Hush Naidoo Jade Photograghy <br>
-  <a href="https://unsplash.com/photos/PexNPwFiJAk"></a></p>
+  <a href="https://unsplash.com/photos/PexNPwFiJAk">Link to Photo</a></p>
 
   &nbsp;
   <hr>
