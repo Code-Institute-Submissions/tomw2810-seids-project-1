@@ -107,7 +107,6 @@ By Mockup Graphics</br>
 By Mockup Graphics</br>
 <a href="https://unsplash.com/photos/bSaBd5RK4kA">Link to Photo</a></p>
 <br>
-<hr>
 
 <h4>Veg Seeds Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
