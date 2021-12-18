@@ -27,6 +27,10 @@ nav ul li a {
 	text-decoration: none;
 	margin-left: 20px;
 }
+nav ul li a:hover {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #725647;
+}
 nav img.logo {
 	margin: 30px;
 	height: auto;
@@ -44,21 +48,25 @@ header {
     background-position: center;
 }
 
+.header-content {
+    width: 100%;
+}
 .header-description {
-    width: 80%;
-	margin: 0 auto;
+	width: 60%;
+	float: left;
 }
 .header-description h1 {
-	display: block;
+	font-size: 3rem;
+}
+.header-img {
+	width: 40%;
 	float: left;
-	position: relative;
 }
 .header-description img {
-	display: inline-block;
+	display: block;
+	float: right;
 	position: relative;
 	width: 400px;
-	margin-top: -160px;
-	margin-right: 60px;
 }
 h1 {
     color: #fff;
@@ -84,12 +92,20 @@ button.primary {
     max-width: 140px;
     margin-right: 8px;
 }
+button.primary:hover {
+    background-color: #41AA8B;
+	color: #fff;
+}
 button.secondary {
     background-color:#2D9475;
     border-radius: 8px;
     border: none;
     padding: 12px 24px;
     max-width: 140px;
+	color: #fff;
+}
+button.secondary:hover {
+    background-color:#0b684c;
 	color: #fff;
 }
 button.primary, button.secondary {
