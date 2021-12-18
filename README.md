@@ -12,6 +12,7 @@ Seids primary goal is provide information and key rules when planting seeds for 
 <img src="#" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
+  <img src="../assets/homepage-wireframe.jpg" alt="An image of a wireframe structured for use of a homepage design">
 <hr>
 &nbsp;
   <h3>User Stories</h3>
