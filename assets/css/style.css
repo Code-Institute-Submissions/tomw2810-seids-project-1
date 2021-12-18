@@ -293,3 +293,17 @@ button.contact:hover {
 
 /***** ABOUT US PAGE ******/
 
+#about {
+	width: 40%;
+	margin: 0 auto;
+}
+.about-images {
+	width: 100%;
+	overflow: hidden;
+}
+.about-images img {
+	width: 50%;
+	max-height: 180px;
+	float: left;
+	position: relative;
+}
