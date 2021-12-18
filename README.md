@@ -86,14 +86,15 @@ I would also like to add something more interactive to make it more fun to use, 
   <hr>
   &nbsp;
   <h3>External Links for Image Usage</h3>
+  
   <h4>Header Image #1</h4>
-  <p>Sourced from unsplash.com</p><br>
-  <p>By Mockup Graphics</p><br>
-  <p><a href="https://unsplash.com/photos/sgmS2e95QO0">Link to Photo</a></p>
+<p>Sourced from unsplash.com<br>
+By Mockup Graphics</br>
+<a href="https://unsplash.com/photos/sgmS2e95QO0">Link to Photo</a></p>
 
-  <h4>Header Image #2</h4>
-    <p>Sourced from unsplash.com</p><br>
-    <p>By Mockup Graphics</p><br>
+<h4>Header Image #2</h4>
+<p>Sourced from unsplash.com<br>
+By Mockup Graphics</br>
 <a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
 
 <h4>Header Image #3</h4>
