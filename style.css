@@ -15,7 +15,7 @@ nav ul {
 	float: right;
 	display: block;
 	position: relative;
-	margin: 45px 30px;
+	margin: 30px 30px;
 }
 nav ul li {
 	list-style: none;
@@ -250,3 +250,35 @@ button.contact {
 	color: #fff;
 	margin-top: 20px;
 }
+
+/***** SEEDS PAGE ******/
+
+#veg-seeds {
+	width: 100%;
+	padding: 120px 140px 0 140px;
+}
+#veg-seeds h2 {
+	margin-bottom: 60px;
+}
+.seed {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-bottom: 50px;
+}
+.seed img {
+	width: 50%;
+	float: left;
+}
+.seed h3 {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	width: 50%;
+	float: left;
+	padding-left: 12px;;
+	margin-bottom: 12px;
+}
+.seed li {
+	margin-bottom: 12px;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+
