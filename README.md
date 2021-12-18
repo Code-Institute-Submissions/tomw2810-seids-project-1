@@ -150,20 +150,20 @@ By Mockup Graphics<br>
 <h4>Fruit Seeds Page Image 4</h4>
 <p>Sourced from: https://unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/xIfhcoVwAjc”></a></p>
+<a href=“https://unsplash.com/photos/xIfhcoVwAjc”>Link to Photo</a></p>
 
 
 
 <h4>About Page Image #1</h4>
 <p>Sourced from: https://unsplash.com<br>
 By Markus Spiske<br>
-https://unsplash.com/photos/4PG6wLlVag4</p>
+  <a href="https://unsplash.com/photos/4PG6wLlVag4"></a></p>
 
 
 <h4>About Page Image #2</h4>
-Sourced from: https://unsplash.com
-By Hush Naidoo Jade Photograghy 
-https://unsplash.com/photos/PexNPwFiJAk
+<p>Sourced from: https://unsplash.com<br>
+By Hush Naidoo Jade Photograghy <br>
+  <a href="https://unsplash.com/photos/PexNPwFiJAk"></a>
 
   &nbsp;
   <hr>
