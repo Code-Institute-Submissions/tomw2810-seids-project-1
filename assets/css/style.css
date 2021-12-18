@@ -79,6 +79,7 @@ p.header {
     width: 50%;
     line-height: 1.4;
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
     letter-spacing: 0.4px;
 }
 button.primary {
@@ -280,12 +281,13 @@ button.contact:hover {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	width: 50%;
 	float: left;
-	padding-left: 12px;;
+	padding-left: 12px;
 	margin-bottom: 12px;
 }
 .seed li {
 	margin-bottom: 12px;
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	width: 50%;
 }
 
 /***** ABOUT US PAGE ******/

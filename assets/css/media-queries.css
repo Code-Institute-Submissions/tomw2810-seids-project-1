@@ -1,6 +1,134 @@
 /***** SCREENS WITH MAX SIZE OF 1200PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 1200px){
-	
+
+    
+    /********** NAVIGATION **********/
+    
+    
+   
+    
+    /********** HEADER **********/
+    
+    header {
+        height: 80vh; 
+    }
+    .header-description {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .header-description img {
+        width: 340px;
+        margin-top: -160px;
+        margin-right: 30px;
+    }
+    
+    h1 {
+        font-size: 3em;
+        
+    }
+    p.header {
+        font-size: 0.9em;
+        
+    }
+    
+    /****** Seed Selection *******/
+    
+    #seed-selection {
+        margin-top: 20px;
+    }
+    
+    /* Card Container */
+    .card-container {
+       padding-left: 60px;
+       padding-right: 60px;
+    }
+    
+    /******* FOOTER *******/
+    
+    footer {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .footer-links {
+        margin-top: 50px;
+    }
+   
+    
+    /* CONTACT US PAGE */
+    
+    #contact {
+        width: 60%;
+        margin-top: 80px;
+    }
+    #contact h2 {
+        margin-bottom: 1.8rem;
+        text-align: center;
+    }
+    button.contact {
+        margin-bottom: 80px;
+    }
+   
+    
+    /***** SEEDS PAGE ******/
+    
+    #veg-seeds {
+        width: 100%;
+        padding: 100px 110px 0 110px;
+    }
+    #veg-seeds h2 {
+        margin-bottom: 60px;
+    }
+    .seed {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .seed h3 {
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+        width: 60%;
+        float: left;
+        padding-left: 12px;
+        margin-bottom: 12px;
+    }
+    .seed li {
+        margin-bottom: 12px;
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+        width: 60%;
+    }
+    .seed img {
+        width: 40%;
+        float: left;
+    }
+    
+    /***** ABOUT US PAGE ******/
+    
+    #about {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    #about h2 {
+        margin: 0 0 30px 0;
+    }
+    #about p {
+        line-height: 1.4em;
+    }
+    .about-images {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .about-images img {
+        width: 50%;
+        max-height: 180px;
+        float: left;
+        position: relative;
+    }
 }
 	
 /***** SCREENS WITH MAX SIZE OF 900PX WIDTH ----------------------------------------------------------------------------------- ******/
