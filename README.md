@@ -77,9 +77,8 @@ User Two - A regular visitor looking to add another seed into their collection<b
   &nbsp;
 <h3>Future Enhancements and Improvement of Features:</h3>
 
-<p>In time this site can become a live e-commerce website with buying and selling becoming its primary feature alongside providing key information on choosing and growing plants. It can also include how to videos by well known plant experts from around the world showing users the types of plants from different climates. Also the one page of seeds can become a more in depth with individual pages for each seed along with its needs and requirements. 
+<p>In time this site can become a live e-commerce website with buying and selling becoming its primary feature alongside providing key information on choosing and growing plants. It can also include how to videos by well known plant experts from around the world showing users the types of plants from different climates. Also the one page of seeds can become a more in depth with individual pages for each seed along with its needs and requirements. </p>
 
-<br><br>
 
 I would also like to add something more interactive to make it more fun to use, its just choosing the right type of addition to make this happen in a logical but fun way. Last but not least I would add social media accounts because they would play a massive role in showcasing the information and products so that potential new users of the site would know what to expect when visiting the site either for the first time or for the twentieth time. </p>
   
@@ -88,13 +87,13 @@ I would also like to add something more interactive to make it more fun to use, 
   &nbsp;
   <h3>External Links for Image Usage</h3>
   <h4>Header Image #1</h4>
- <p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/sgmS2e95QO0"></a></p>
+  <p>Sourced from unsplash.com</p><br>
+  <p>By Mockup Graphics</p><br>
+  <p><a href="https://unsplash.com/photos/sgmS2e95QO0"></a></p>
 
-<h4>Header Image #2</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
+  <h4>Header Image #2</h4>
+    <p>Sourced from unsplash.com</p><br>
+    <p>By Mockup Graphics</p><br>
 <a href="https://unsplash.com/photos/jHcKq383ibg"></a></p>
 
 <h4>Header Image #3</h4>
@@ -112,45 +111,45 @@ By Mockup Graphics</br>
 <h4>Veg Seeds Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/KfX5c9TxYPg"></a></p>
+<a href="https://unsplash.com/photos/KfX5c9TxYPg"></a></p>
 
 
 <h4>Veg Seeds Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/aptwTsQr3cQ”></a></p>
+<a href="https://unsplash.com/photos/aptwTsQr3cQ"></a></p>
 
 <h4>Veg Seeds Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/C6Y0-8ANnho”></a></p>
+<a href="https://unsplash.com/photos/C6Y0-8ANnho"></a></p>
 
 <h4>Veg Seeds Page Image 4</h4>
   <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/l55IGtwI8mI”></a></p>
+<a href="https://unsplash.com/photos/l55IGtwI8mI"></a></p>
 
 —————
 
 <h4>Fruit Seeds Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/haSJEJYzl5A”></a></p>
+<a href="https://unsplash.com/photos/haSJEJYzl5A"></a></p>
 
 <h4>Fruit Seeds Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/RLbly_gGSCA”></a></p>
+<a href="https://unsplash.com/photos/RLbly_gGSCA"></a></p>
 
 <h4>Fruit Seeds Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/ZBXPPacUsVs”></a></p>
+<a href="https://unsplash.com/photos/ZBXPPacUsVs"></a></p>
 
 <h4>Fruit Seeds Page Image 4</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href=“https://unsplash.com/photos/xIfhcoVwAjc”>Link to Photo</a></p>
+<a href="https://unsplash.com/photos/xIfhcoVwAjc">Link to Photo</a></p>
 
 
 
@@ -163,7 +162,7 @@ By Markus Spiske<br>
 <h4>About Page Image #2</h4>
 <p>Sourced from unsplash.com<br>
 By Hush Naidoo Jade Photograghy <br>
-  <a href="https://unsplash.com/photos/PexNPwFiJAk"></a>
+  <a href="https://unsplash.com/photos/PexNPwFiJAk"></a></p>
 
   &nbsp;
   <hr>
