@@ -15,7 +15,7 @@ nav ul {
 	float: right;
 	display: block;
 	position: relative;
-	margin: 30px 30px;
+	margin: 50px 30px;
 }
 nav ul li {
 	list-style: none;
@@ -276,6 +276,7 @@ button.contact:hover {
 .seed img {
 	width: 50%;
 	float: left;
+	clear: both;
 }
 .seed h3 {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
@@ -284,7 +285,7 @@ button.contact:hover {
 	padding-left: 12px;
 	margin-bottom: 12px;
 }
-.seed li {
+.seed ul li {
 	margin-bottom: 12px;
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	width: 50%;
