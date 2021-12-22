@@ -51,7 +51,6 @@ header {
 	padding-left: 120px;
 	padding-right: 120px;
 	margin-top: 30px;
-	overflow: hidden;
 }
 .header-description {
 	display: block;
@@ -113,42 +112,50 @@ button.primary, button.secondary {
 }
 
 /*** SEED SELECTION ***/
+
 #seed-selection {
-	display: block;
-	position: relative;
-    width: 100%;
-	clear: both;
-	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 80px;
 }
-h2{
+.selection-info h2{
+	display: block;
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: #725647;
-    text-align: center;
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 p.seed-selection {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-    color: #725647;
+    color: #000;
     text-align: center;
+	padding-left: 60px;
+	padding-right: 60px;
 }
-/* Card Container */
+
+/*** CARD CONTAINER ***/
+
 .card-container {
-	display: block;
-    width: 100%;
-	margin-top: 60px;
+	display: flex;
+	flex: row wrap;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	width: 100%;
+	justify-content: center;
 }
 .card {
 	display: block;
 	position: relative;
-	width: 25%; 
-    float: left;
 	text-align: center;
-    box-sizing: border-box;
-	margin-bottom: 100px;
+	padding:  0 30px 30px 30px;
 }
 .card img {
-    width: 35%;
-    margin: 0 auto;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
 }
 .card h3 {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
@@ -157,10 +164,31 @@ p.seed-selection {
 	font-weight: normal;
 }
 
-
-
 /******* FOOTER *******/
 
+footer {
+	display: flex;
+	flex: wrap;
+	padding: 60px;
+	background-color: #725647;
+}
+.footer-logo {
+    width: 100%;
+	display: block;
+}
+.footer-logo img {
+    display: block;
+    width: 40%;
+}
+.footer-links {
+	display: flex;
+	margin-top: 60px;
+}
+.useful-links {
+	display: inline-block;
+
+}
+/**
 footer {
     background-color: #725647;
     margin-top: 80px;
@@ -207,7 +235,7 @@ span.icon img {
 	color: #fff;
 	font-size: 12px;
 }
-
+**/
 /* CONTACT US PAGE */
 
 #contact {
