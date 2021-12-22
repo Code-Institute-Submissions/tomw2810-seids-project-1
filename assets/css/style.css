@@ -29,8 +29,8 @@ nav ul li a {
 	margin-left: 20px;
 }
 nav ul li a:hover {
-	padding-bottom: 4px;
-	border-bottom: 2px solid #725647;
+	padding-bottom: 2px;
+	border-bottom: 4px dashed #41AA8B;
 }
 nav img.logo {
 	margin: 30px;
@@ -47,33 +47,25 @@ header {
 .header-content {
 	display: flex;
 	flex-wrap: row wrap;
-}
-/********** HEADER **********/
-/***
-header {
-	height: 90vh;
-    background-image: url(../images/header-bg.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.header-content {
-    width: 100%;
-	padding-left: 100px;
-	padding-right: 100px;
+	width: 100%;
+	padding-left: 120px;
+	padding-right: 120px;
+	margin-top: 30px;
+	overflow: hidden;
 }
 .header-description {
-	width: 100%;
+	display: block;
 	float: left;
-	display: block;
+	width: 50%;
 }
-.header-description img {
+.header-img {
+	width: 50%;
+}
+.header-img img {
 	display: block;
-	float: right;
 	width: 400px;
-	clear: right;
-	margin-top: -160px;
-	margin-right: 60px;
+	height: 400px;
+	margin-left: 30px;
 }
 
 h1 {
@@ -86,8 +78,7 @@ h1 {
 p.header {
     color: #fff;
     margin: 0;
-    padding: 0;
-    width: 50%;
+    padding-right: 50px;
     line-height: 1.4;
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	font-size: 1em;
@@ -120,9 +111,8 @@ button.secondary:hover {
 button.primary, button.secondary {
     margin-top: 20px;
 }
-***/
-/****** Seed Selection *******/
 
+/*** SEED SELECTION ***/
 #seed-selection {
 	display: block;
 	position: relative;
