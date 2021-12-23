@@ -1,418 +1,91 @@
 /***** SCREENS WITH MAX SIZE OF 1200PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 1200px){
 
-    
-    /********** NAVIGATION **********/
-    /********** HEADER **********/
-    
-    header {
-        height: 80vh; 
-    }
-    .header-description {
-        width: 100%;
-        float: left;
-        display: block;
-    }
-    .header-description img {
-        width: 300px;
-        margin-top: -160px;
-        margin-right: 20px;
-    }
-    
-    h1 {
-        font-size: 2.7em;
-        
-    }
-    p.header {
-        font-size: 0.9em;
-        
-    }
-    
-    /****** Seed Selection *******/
-    
-    #seed-selection {
-        margin-top: 20px;
-    }
-    
-    /* Card Container */
-    .card-container {
-       padding-left: 60px;
-       padding-right: 60px;
-    }
-    
-    /******* FOOTER *******/
-    
-    footer {
-        padding-left: 90px;
-        padding-right: 90px;
-    }
-
-    .footer-links {
-        margin-top: 50px;
-    }
-   
-    
-    /* CONTACT US PAGE */
-    
-    #contact {
-        width: 60%;
-        margin-top: 80px;
-    }
-    #contact h2 {
-        margin-bottom: 1.8rem;
-        text-align: center;
-    }
-    button.contact {
-        margin-bottom: 80px;
-    }
-   
-    
-    /***** SEEDS PAGE ******/
-    
-    #veg-seeds {
-        width: 100%;
-        padding: 100px 110px 0 110px;
-    }
-    #veg-seeds h2 {
-        margin-bottom: 60px;
-    }
-    .seed {
-        width: 50%;
-        height: auto;
-        float: left;
-        margin-bottom: 50px;
-    }
-
-    .seed h3 {
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-        width: 60%;
-        float: left;
-        padding-left: 12px;
-        margin-bottom: 12px;
-    }
-    .seed li {
-        margin-bottom: 12px;
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-        width: 60%;
-    }
-    .seed img {
-        width: 40%;
-        float: left;
-    }
-    
-    /***** ABOUT US PAGE ******/
-    
-    #about {
-        width: 40%;
-        margin: 0 auto;
-        margin-top: 120px;
-        margin-bottom: 120px;
-    }
-    #about h2 {
-        margin: 0 0 30px 0;
-    }
-    #about p {
-        line-height: 1.4em;
-    }
-    .about-images {
-        width: 100%;
-        overflow: hidden;
-        margin-top: 40px;
-    }
-    .about-images img {
-        width: 50%;
-        max-height: 180px;
-        float: left;
-        position: relative;
-    }
 }
 	
-/***** SCREENS WITH MAX SIZE OF 900PX WIDTH ----------------------------------------------------------------------------------- ******/
-@media only screen and (max-width: 900px) {
-    nav ul {
-        margin: 40px 40px;
-    }
-    nav ul li {
-        list-style: none;
-        display: inline-block;
-        vertical-align: middle;
-    }
+/***** SCREENS WITH MAX SIZE OF 992PX WIDTH ----------------------------------------------------------------------------------- ******/
+@media only screen and (max-width: 992px) {
     
-    
-    /********** HEADER **********/
-    
-  
-    
-    .header-content {
-        width: 100%;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .header-description {
-        width: 100%;
-        float: left;
-        display: block;
-    }
-    .header-description img {
-        width: 280px;
-        margin-right: 20px;
-    }
-    
-    h1 {
-        font-size: 2.6em;
-    }
-    p.header {
-        line-height: 1.3;
-        font-size: 0.9em;
-       
-    }
-    button.primary {
-        padding: 10px 18px;
-    }
-    button.secondary {
-        padding: 10px 18px;
-    
-    }
-    
-    
-    /****** Seed Selection *******/
-    
-    #seed-selection {
-        margin-top: 0px;
-    }
-    h2{
-        font-size: 1.8em;
-
-    }
-    p.seed-selection {
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-        color: #725647;
-        text-align: center;
-        font-size: 0.8em;
-    }
-    /* Card Container */
-    
-    /******* FOOTER *******/
-    
-    footer {
-        margin-top: 40px;
-        padding: 30px; 
-    }
-    .footer-logo img {
-        width: 15%;
-    }
-    .footer-links {
-        margin-top: 60px;
-    }
-    .useful-links {
-        display: block;
-        width: 100%;
-        margin-bottom: 32px;
-        text-align: center;
-    }
-    
-    span.icon img {
-        height: 16px;
-    }
-    .copyright {
-        text-align: center;
-        margin-top: 30px;
-        color: #fff;
-        font-size: 12px;
-    }
 }
 
-/***** SCREENS WITH MAX SIZE OF 600PX WIDTH ----------------------------------------------------------------------------------- ******/
-@media only screen and (max-width: 600px) {
-    nav {
-        background-color: #53BF9F;
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-    }
-    nav ul {
-        float: none;
-        display: block;
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-    }
-    nav ul li {
-        list-style: none;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        margin-left: 20px;
-    }
-    nav ul li a:hover {
-        padding-bottom: 4px;
-        border-bottom: 2px solid #725647;
-    }
-    nav img.logo {
-        margin: 30px;
-        height: auto;
-        width: 160px;
-    }
+/***** SCREENS WITH MAX SIZE OF 768PX WIDTH ----------------------------------------------------------------------------------- ******/
+@media only screen and (max-width: 768px) {
     
-    /********** HEADER **********/
-    
-    header {
-        height: 1200px;
-        background-color: #53BF9F;
-    }
-    
-    .header-content {
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .header-description {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .header-description img {
-        display: block;
-        width: 180px;
-        margin: 0 auto;
-     
-       
-    }
-    
-    h1 {
-        font-size: 2.2em;
-    
-    }
-    p.header {
-        text-align: center;
-    }
-    button.primary {
-        background-color: #fff;
-        border-radius: 8px;
-        border: none;
-        padding: 12px 24px;
-        max-width: 140px;
-        margin-right: 8px;
-    }
-    button.primary:hover {
-        background-color: #41AA8B;
-        color: #fff;
-    }
-    button.secondary {
-        background-color:#2D9475;
-        border-radius: 8px;
-        border: none;
-        padding: 12px 24px;
-        max-width: 140px;
-        color: #fff;
-    }
-    button.secondary:hover {
-        background-color:#0b684c;
-        color: #fff;
-    }
-    button.primary, button.secondary {
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    /****** Seed Selection *******/
-    
-    #seed-selection {
-        display: block;
-        position: relative;
-        width: 100%;
-        clear: both;
-        margin-top: 100px;
-    }
-    h2{
-        font-family: 'Nunito', Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        color: #725647;
-        text-align: center;
-    }
-    p.seed-selection {
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-        color: #725647;
-        text-align: center;
-    }
-    /* Card Container */
-    .card-container {
-        display: block;
-        width: 100%;
-        margin-top: 60px;
-    }
-    .card {
-        display: block;
-        position: relative;
-        width: 25%; 
-        float: left;
-        text-align: center;
-        box-sizing: border-box;
-        margin-bottom: 100px;
-    }
-    .card img {
-        width: 35%;
-        margin: 0 auto;
-    }
-    .card h3 {
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        margin-top: 20px;
-        font-weight: normal;
-    }
-    
-    
-    
-    /******* FOOTER *******/
-    
-    footer {
-        background-color: #725647;
-        margin-top: 80px;
-        padding: 60px; 
-        clear: both;
-    }
-    .footer-logo {
-        width: 100%;
-    }
-    .footer-logo img {
-        display: block;
-        width: 10%;
-        margin: 0 auto;
-    }
-    .footer-links {
-        margin-top: 60px;
-    }
-    .useful-links {
-        display: inline-block;
-        width: 33%;
-    }
-    .useful-links h3 {
-        color: #fff;
-        margin-bottom: 20px;
-    }
-    .useful-links ul {
-        list-style: none;
-    }
-    .useful-links ul li {
-        margin-bottom: 8px;
-    }
-    .useful-links ul li a {
-        text-decoration: none;
-        color: #fff;
-        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-    }
-    span.icon img {
-        height: 20px;
-        margin-right:12px;
-    }
-    .copyright {
-        text-align: center;
-        margin-top: 30px;
-        color: #fff;
-        font-size: 12px;
-    }
 }
-/***** SCREENS WITH MAX SIZE OF 300PX WIDTH ----------------------------------------------------------------------------------- ******/
-@media only screen and (max-width: 300px) {
+/***** SCREENS WITH MAX SIZE OF 576PX WIDTH ----------------------------------------------------------------------------------- ******/
+@media only screen and (max-width: 576px) {
+    /***** HEADER *******/
+header {
+	height: 90vh auto;
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+	position: relative;
+}
+.header-content {
+	display: flex;
+	flex: wrap;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+}
+.header-description {
+	display: block;
+	float: left;
+	width: 50%;
+}
+.header-img {
+	width: 50%;
+}
+.header-img img {
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin-left: 30px;
+}
 
+h1 {
+    color: #fff;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    margin: 0;
+    padding: 0;
+}
+p.header {
+    color: #fff;
+    margin: 0;
+    padding-right: 50px;
+    line-height: 1.4;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+    letter-spacing: 0.4px;
+}
+button.primary {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 24px;
+    max-width: 140px;
+    margin-right: 8px;
+}
+button.primary:hover {
+    background-color: #41AA8B;
+	color: #fff;
+}
+button.secondary {
+    background-color:#2D9475;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 24px;
+    max-width: 140px;
+	color: #fff;
+}
+button.secondary:hover {
+    background-color:#0b684c;
+	color: #fff;
+}
+button.primary, button.secondary {
+    margin-top: 20px;
+}
 }
