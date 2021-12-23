@@ -39,10 +39,11 @@ nav img.logo {
 }
 /***** HEADER *******/
 header {
-	height: 90vh;
+	height: 90vh auto;
     background-image: url(../images/header-bg.png);
     background-size: cover;
     background-position: center;
+	position: relative;
 }
 .header-content {
 	display: flex;
@@ -167,29 +168,6 @@ p.seed-selection {
 /******* FOOTER *******/
 
 footer {
-	display: flex;
-	flex: wrap;
-	padding: 60px;
-	background-color: #725647;
-}
-.footer-logo {
-    width: 100%;
-	display: block;
-}
-.footer-logo img {
-    display: block;
-    width: 40%;
-}
-.footer-links {
-	display: flex;
-	margin-top: 60px;
-}
-.useful-links {
-	display: inline-block;
-
-}
-/**
-footer {
     background-color: #725647;
     margin-top: 80px;
     padding: 60px; 
@@ -235,7 +213,50 @@ span.icon img {
 	color: #fff;
 	font-size: 12px;
 }
-**/
+
+/***** SEEDS PAGE ******/
+
+#seed-portfolio {
+	display: flexbox;
+	flex: row wrap;
+	width: 100%;
+}
+.title {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.title h2 {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #725647;
+}
+.seed-card-container {
+	display: flex;
+	flex: row wrap;
+	justify-content: center;
+}
+.seed-card {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.seed-card-img {
+	float: left;
+	position: relative;
+}
+.seed-card-info {
+	float: right;
+	position: relative;
+}
+
+
 /* CONTACT US PAGE */
 
 #contact {
@@ -285,39 +306,6 @@ button.contact {
 button.contact:hover {
     background-color:#0b684c;
 	color: #fff;
-}
-
-/***** SEEDS PAGE ******/
-
-#veg-seeds {
-	width: 100%;
-	padding: 120px 140px 0 140px;
-}
-#veg-seeds h2 {
-	margin-bottom: 60px;
-}
-.seed {
-	width: 50%;
-	height: auto;
-	float: left;
-	margin-bottom: 50px;
-}
-.seed img {
-	width: 50%;
-	float: left;
-	clear: both;
-}
-.seed h3 {
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	width: 50%;
-	float: left;
-	padding-left: 12px;
-	margin-bottom: 12px;
-}
-.seed ul li {
-	margin-bottom: 12px;
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	width: 50%;
 }
 
 /***** ABOUT US PAGE ******/
