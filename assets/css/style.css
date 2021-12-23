@@ -218,7 +218,7 @@ span.icon img {
 
 #seed-portfolio {
 	display: flexbox;
-	flex: row wrap;
+	flex: wrap;
 	width: 100%;
 }
 .title {
@@ -239,13 +239,14 @@ span.icon img {
 	display: flex;
 	flex: row wrap;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 .seed-card {
 	display: inline-block;
 	position: relative;
 	float: left;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .seed-card-img {
 	float: left;
@@ -254,6 +255,22 @@ span.icon img {
 .seed-card-info {
 	float: right;
 	position: relative;
+}
+.seed-card-info {
+	display: block;
+	position: relative;
+	margin-left: 20px;
+}
+.seed-card-info h3 {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #725647;
+	margin-bottom: 10px;
+}
+.seed-card-info ul li {
+	list-style-type: none;
+	margin-bottom: 6px;
 }
 
 
