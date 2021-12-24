@@ -161,8 +161,8 @@ By Markus Spiske<br>
 
 <h4>About Page Image #2</h4>
 <p>Sourced from unsplash.com<br>
-By Hush Naidoo Jade Photograghy <br>
-  <a href="https://unsplash.com/photos/PexNPwFiJAk">Link to Photo</a></p>
+By Brooke Cagle <br>
+  <a href="https://unsplash.com/photos/-uHVRvDr7pg">Link to Photo</a></p>
 
   &nbsp;
   <hr>
