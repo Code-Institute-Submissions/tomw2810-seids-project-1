@@ -15,5 +15,89 @@
 /***** SCREENS WITH MAX SIZE OF 576PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 576px) {
   /********** NAVIGATION **********/
+nav {
+	display: flex;
+  width: 100%;
+	flex-direction: column;
+}
+nav ul {
+	width: 100%;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+	list-style: none;
+	display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+nav ul li a {
+	margin-left: 0px;
+}
+.logo-container {
+  width: 100%;
+  display: block;
+  
+}
+.logo-container img.logo {
+	width: 160px;
+}
+
+/***** HEADER *******/
+header {
+	  height: auto;
+    background-color: #41AA8B;
+}
+.header-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+  height: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 20px;
+  margin-bottom: 30px;
+}
+.header-description {
+	display: flex;
+  flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+.header-img {
+	width: 100%;
+}
+.header-img img {
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin-left: 0px;
+  margin-top: 40px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    margin: 0;
+    padding: 0;
+}
+p.header {
+    padding-right: 0px;
+    margin-top: 30px;
+}
+button.primary {
+    min-width: 100%;
+    margin-right: 0;
+    padding: 18px 24px;
+}
+button.secondary {
+    min-width: 100%;
+    padding: 18px 24px;
+}
+button.primary, button.secondary {
+    margin-top: 20px;
+}
 
 }
