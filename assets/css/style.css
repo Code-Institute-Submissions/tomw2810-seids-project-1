@@ -33,6 +33,7 @@ nav ul li a:hover {
 	border-bottom: 4px dashed #41AA8B;
 }
 nav img.logo {
+	display: flex;
 	margin: 30px;
 	width: 160px;
 }
@@ -58,6 +59,7 @@ header {
 	width: 50%;
 }
 .header-img {
+	display: flex;
 	width: 50%;
 }
 .header-img img {
@@ -160,7 +162,8 @@ p.seed-selection {
 .card h3 {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 	font-weight: normal;
 }
 
