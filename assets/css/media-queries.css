@@ -38,7 +38,6 @@ nav ul li a {
 .logo-container {
   width: 100%;
   display: block;
-  
 }
 .logo-container img.logo {
 	width: 160px;
@@ -160,7 +159,7 @@ p.seed-selection {
 
 footer {
     background-color: #725647;
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 60px; 
 	  clear: both;
 }
@@ -169,7 +168,7 @@ footer {
 }
 .footer-logo img {
     display: block;
-    width: 10%;
+    width: 35%;
     margin: 0 auto;
 }
 .footer-links {
@@ -177,11 +176,13 @@ footer {
 }
 .useful-links {
 	display: inline-block;
-	width: 33%;
+	width: 100%;
+  text-align: center;
 }
 .useful-links h3 {
 	color: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+  margin-top: 20px;
 }
 .useful-links ul {
 	list-style: none;
@@ -195,13 +196,70 @@ footer {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 span.icon img {
-	height: 20px;
+	height: 16px;
 	margin-right:12px;
 }
 .copyright {
-	text-align: center;
-	margin-top: 30px;
-	color: #fff;
-	font-size: 12px;
+	margin-top: 10px;
 }
+
+/***** SEEDS PAGE ******/
+
+#seed-portfolio {
+	display: flexbox;
+	flex: wrap;
+	width: 100%;
+}
+.title {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.title h2 {
+	  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #725647;
+}
+.seed-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.seed-card {
+	display: block;
+	position: relative;
+  margin: 0;
+	padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+}
+.seed-card-img {
+  display: block;
+  width: 100%;
+	position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.seed-card-info {
+	margin-left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.seed-card-info h3 {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #725647;
+	margin-bottom: 10px;
+}
+.seed-card-info ul li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
+
 }
