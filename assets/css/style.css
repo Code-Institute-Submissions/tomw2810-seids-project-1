@@ -236,6 +236,22 @@ span.icon img {
     font-size: 2em;
     color: #725647;
 }
+.title p {
+	margin-top: 16px;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.title p a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.title p a:hover {
+	border-bottom: 1px solid #41AA8B;
+}
+span {
+	color: #eee;
+}
 .seed-card-container {
 	display: flex;
 	flex: row wrap;
