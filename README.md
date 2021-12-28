@@ -63,13 +63,17 @@ User Two - A regular visitor looking to add another seed into their collection<b
 <img src="../assets/design/footer-design.png" alt="a footer with links from the website">
 <h4>Footer Section</h4>
 <p>In the footer we have a logo to either identify the website again or for use as a quick link to the top of the homepage. Below the logo we have three useful links sections where we give the user a variety of links to help navigate after reading through the websites current page. The links cover all the main links through the homepage and also include social media links. As a small company these links can help generate interest through external websites to promote products and interact with loyal seed lovers to help choose and grow their desired plant or plants.</p>
-
-<h4>Seeds Info and Guide Section</h4>
-<p>On the seeds info and guide page it displays a variety of seeds with the key info about each seed. When the user lands on this page they can can clearly see the seeds laid out in a two by two grid for ease of use also making the responsive look into mobile is 
-
+<br><br>
+<img src="assets/seeds-page-design.png" alt="a section from the seed and planst listings">
+<h4>Seeds & Plants Section</h4>
+<p>On the seeds info and guide page it displays a variety of seeds with the key info about each seed. When the user lands on this page they can can clearly see the seeds laid out in a two by two grid for easy reading and viewing to the eyes. with a two by two grid it can be broken down into mobile fairly easily.
+<br><br>
+<img src="assets/design/about-us-design.png" alt="an about us section from the about us page">
 <h4>About Us Section</h4>
-<p>In the about section we have a short paragraph briefly explaining the birth of the website and goals.</p>
-  
+<p>In the about section we have a short paragraph briefly explaining the birth of the website and goals with some pictures of the things we talk about on the site as well as a team photo of everyone working happily discussing things.</p>
+  <br>
+  <br>
+  <img src="assets/design/contact-us-design.png" alt="a section from contact us page displaying the form">
   <h4>Contact Section</h4>
   <p>Here we have a basic contact form in order for anyone who has queries or concerns about the info provided on the website Seids</p>
   &nbsp;
