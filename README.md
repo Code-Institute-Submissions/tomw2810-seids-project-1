@@ -64,7 +64,7 @@ User Two - A regular visitor looking to add another seed into their collection<b
 <h4>Footer Section</h4>
 <p>In the footer we have a logo to either identify the website again or for use as a quick link to the top of the homepage. Below the logo we have three useful links sections where we give the user a variety of links to help navigate after reading through the websites current page. The links cover all the main links through the homepage and also include social media links. As a small company these links can help generate interest through external websites to promote products and interact with loyal seed lovers to help choose and grow their desired plant or plants.</p>
 <br><br>
-<img src="assets/seeds-page-design.png" alt="a section from the seed and planst listings">
+<img src="assets/design/seeds-page-design.png" alt="a section from the seed and plants listings">
 <h4>Seeds & Plants Section</h4>
 <p>On the seeds info and guide page it displays a variety of seeds with the key info about each seed. When the user lands on this page they can can clearly see the seeds laid out in a two by two grid for easy reading and viewing to the eyes. with a two by two grid it can be broken down into mobile fairly easily.
 <br><br>
