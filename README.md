@@ -47,20 +47,20 @@ User Two - A regular visitor looking to add another seed into their collection<b
   <hr>
   &nbsp;
   <h3>Sections:</h3>
-
+<img src="../assets/design/nav-design.png" alt="a navigation bar and links">
 <h4>Navigation Section</h4>
 <p>The nav element is a primary section and features on all pages in order for the user to go from page to page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do.</p>
-
+<br><br>
+<img src="..assets/design/header-design.png" alt="a header or hero image from a website">
  <h4>Header/Hero Section</h4>
 <p>The header/hero section allows the users to clearly identify what the website is all about. In the header description area we have the title of ‘Learn Seeds & Grow Life’ which a user can quickly realise that the website is about seeds and growing life which in this case is plants. The title is accompanied by a paragraph giving the user a brief description about what the site provides throughout. Below we have two buttons; one primary button and one secondary button. These differentiate between importance for the user and the primary button is filled showcasing that this is the more important button to click on. To the right of the header description area we have an image of 4 varieties of plants showcasing what a user can achieve by following the steps on the website.</p>
-  
-<h4>Seed Selection</h4>
+  <br><br>
+  <img src="../assets/design/seeds-selection-design.png" alt="a section of the website showing 4 options to navigate to">
+<h4>Seed/Plants Selection</h4>
 
 <p>In the selection area we have 4 images with titles. These are links which a user can click or tap on to take you to the relevant page of which they want. It consists of a title, small description and 4 cards to pick from. The cards also use illustrations from an external source which is listed below. Behind the image is a small rounded shape which makes the images pop and pushes towards the user for interaction should they wish.</p>
-
-<h4>Extra Info Section</h4>
-<p>In the extra info section we also have a rounded shape as a background. Its purpose is to give a small piece of important advice that could change from time to time depending on the season. Its something extra for the user but carries extra information which again will help with user experience. </p>
-
+<br><br>
+<img src="../assets/design/footer-design.png" alt="a footer with links from the website">
 <h4>Footer Section</h4>
 <p>In the footer we have a logo to either identify the website again or for use as a quick link to the top of the homepage. Below the logo we have three useful links sections where we give the user a variety of links to help navigate after reading through the websites current page. The links cover all the main links through the homepage and also include social media links. As a small company these links can help generate interest through external websites to promote products and interact with loyal seed lovers to help choose and grow their desired plant or plants.</p>
 
@@ -108,50 +108,52 @@ By Mockup Graphics</br>
 <a href="https://unsplash.com/photos/bSaBd5RK4kA">Link to Photo</a></p>
 <br>
 
-<h4>Veg Seeds Page Image 1</h4>
+------
+
+<h4>Veg Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/KfX5c9TxYPg">Link to Photo</a></p>
+<a href="https://unsplash.com/photos/YXx2cabK4Jg">Link to Photo</a></p>
 
 
-<h4>Veg Seeds Page Image 2</h4>
+<h4>Veg Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/aptwTsQr3cQ">Link to Photo</a></p>
-
-<h4>Veg Seeds Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/C6Y0-8ANnho">Link to Photo</a></p>
-
-<h4>Veg Seeds Page Image 4</h4>
-  <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
 <a href="https://unsplash.com/photos/l55IGtwI8mI">Link to Photo</a></p>
 
-—————
-
-<h4>Fruit Seeds Page Image 1</h4>
+<h4>Veg Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/haSJEJYzl5A">Link to Photo</a></p>
+<a href="https://unsplash.com/photos/6PG3k3_SRHU">Link to Photo</a></p>
 
-<h4>Fruit Seeds Page Image 2</h4>
+<h4>Veg Page Image 4</h4>
+  <p>Sourced from unsplash.com<br>
+By Mockup Graphics<br>
+<a href="https://unsplash.com/photos/iBW28FXHAxg">Link to Photo</a></p>
+
+—————
+
+<h4>Fruits Page Image 1</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
 <a href="https://unsplash.com/photos/RLbly_gGSCA">Link to Photo</a></p>
 
-<h4>Fruit Seeds Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
-
-<h4>Fruit Seeds Page Image 4</h4>
+<h4>Fruits Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/xIfhcoVwAjc">Link to Photo</a></p>
+<a href="https://unsplash.com/photos/-D6xO2LUVdk">Link to Photo</a></p>
 
-—————
+<h4>Fruits Page Image 3</h4>
+<p>Sourced from unsplash.com<br>
+By Mockup Graphics</br>
+<a href="https://unsplash.com/photos/02mYQkbBzxo">Link to Photo</a></p>
+
+<h4>Fruits Page Image 4</h4>
+<p>Sourced from unsplash.com<br>
+By Mockup Graphics<br>
+<a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
+
+————-
 
 <h4>About Page Image #1</h4>
 <p>Sourced from unsplash.com<br>
@@ -163,6 +165,51 @@ By Markus Spiske<br>
 <p>Sourced from unsplash.com<br>
 By Brooke Cagle <br>
   <a href="https://unsplash.com/photos/-uHVRvDr7pg">Link to Photo</a></p>
+
+
+  —————
+
+<h4>Indoor Plants Page Image 1</h4>
+<p>Sourced from unsplash.com<br>
+By Severin Candrian<br>
+<a href="https://unsplash.com/photos/rGdSwVibhiQ">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 2</h4>
+<p>Sourced from unsplash.com<br>
+By Kara Eads<br>
+<a href="https://unsplash.com/photos/nvo7jmzDDew">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 3</h4>
+<p>Sourced from unsplash.com<br>
+By Scott Webb</br>
+<a href="https://unsplash.com/photos/d8m_1c3MAdI">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 4</h4>
+<p>Sourced from unsplash.com<br>
+By Sanni Sahil<br>
+<a href="https://unsplash.com/photos/DoxGtpAsdYY">Link to Photo</a></p>
+
+ —————
+
+<h4>Outdoor Plants Page Image 1</h4>
+<p>Sourced from unsplash.com<br>
+By Katriona McCarthy<br>
+<a href="https://unsplash.com/photos/3uXRJo-uAPo">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 2</h4>
+<p>Sourced from unsplash.com<br>
+By Aleksandr Kadykov<br>
+<a href="https://unsplash.com/photos/2KMpCBrEhPQ">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 3</h4>
+<p>Sourced from unsplash.com<br>
+By Aggie Marder</br>
+<a href="https://unsplash.com/photos/hOy8S93cM8E">Link to Photo</a></p>
+
+<h4>Indoor Plants Page Image 4</h4>
+<p>Sourced from unsplash.com<br>
+By Jason Leung<br>
+<a href="https://unsplash.com/photos/rHSxv7aRrVc">Link to Photo</a></p>
 
   &nbsp;
   <hr>
