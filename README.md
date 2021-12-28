@@ -49,7 +49,7 @@ User Two - A regular visitor looking to add another seed into their collection<b
   <h3>Sections:</h3>
 <img src="../assets/design/nav-design.png" alt="a navigation bar and links">
 <h4>Navigation Section</h4>
-<p>The nav element is a primary section and features on all pages in order for the user to go from page to page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do.</p>
+<p>The nav element is a primary section and features on all pages in order for the user to go from page to page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do. After I planned to develop a nav bar with three links I decided that it needed a fourth link to to show a popular variety of seeds and plants. This is mainly due to if the site were to expand in size this page would come in handy for many to view other top hits.</p>
 <br><br>
 <img src="..assets/design/header-design.png" alt="a header or hero image from a website">
  <h4>Header/Hero Section</h4>
@@ -66,7 +66,7 @@ User Two - A regular visitor looking to add another seed into their collection<b
 <br><br>
 <img src="assets/seeds-page-design.png" alt="a section from the seed and planst listings">
 <h4>Seeds & Plants Section</h4>
-<p>On the seeds info and guide page it displays a variety of seeds with the key info about each seed. When the user lands on this page they can can clearly see the seeds laid out in a two by two grid for easy reading and viewing to the eyes. with a two by two grid it can be broken down into mobile fairly easily.
+<p>On the seeds info and guide page it displays a variety of seeds with the key info about each seed. When the user lands on this page they can can clearly see the seeds laid out in a two by two grid for easy reading and viewing to the eyes. with a two by two grid it can be broken down into mobile fairly easily. After I designed the page and started doing some userbility testing I quickly realised it needed something on the page to navigate to the other types of seeds and plants, this was something that I completely overlooked until it was in testing stage so the links below the title were added for ease of use throughout the pages and works well.
 <br><br>
 <img src="assets/design/about-us-design.png" alt="an about us section from the about us page">
 <h4>About Us Section</h4>
