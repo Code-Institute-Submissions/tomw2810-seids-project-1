@@ -5,12 +5,462 @@
 	
 /***** SCREENS WITH MAX SIZE OF 992PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 992px) {
-    
+    nav {
+		display: flex;
+		flex-wrap: row wrap;
+		justify-content: space-between;
+		background-color: #53BF9F;
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	}
+	nav ul {
+		margin: 50px 50px;
+		position: relative;
+	}
+	nav ul li {
+		list-style: none;
+		display: inline-flex;
+	}
+	nav ul li a {
+		color: #fff;
+		text-decoration: none;
+		margin-left: 20px;
+	}
+	nav ul li a:hover {
+		border-bottom: 1px solid #725647;
+	}
+	nav img.logo {
+		display: flex;
+		margin: 30px;
+		width: 160px;
+	}
+	/***** HEADER *******/
+	header {
+		height: 100vh auto;
+		background-image: url(../images/header-bg.png);
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+	.header-content {
+		display: flex;
+		flex-wrap: row wrap;
+		width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
+		margin-top: 20px;
+	}
+	.header-description {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	.header-img {
+		display: flex;
+		width: 50%;
+	}
+	.header-img img {
+		display: block;
+		width: 400px;
+		height: 400px;
+		margin-left: 30px;
+	}
+	
+	h1 {
+		color: #fff;
+		font-family: 'Nunito', Arial, Helvetica, sans-serif;
+		font-size: 3.2em;
+		margin: 0;
+		padding: 0;
+	}
+	p.header {
+		color: #fff;
+		margin: 0;
+		padding-right: 50px;
+		line-height: 1.4;
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		letter-spacing: 0.4px;
+	}
+	button.primary {
+		background-color: #fff;
+		border-radius: 8px;
+		border: none;
+		padding: 12px 24px;
+		max-width: 140px;
+		margin-right: 8px;
+	}
+	button.primary:hover {
+		background-color: #41AA8B;
+		color: #fff;
+	}
+	button.secondary {
+		background-color:#2D9475;
+		border-radius: 8px;
+		border: none;
+		padding: 12px 24px;
+		max-width: 140px;
+		color: #fff;
+	}
+	button.secondary:hover {
+		background-color:#0b684c;
+		color: #fff;
+	}
+	button.primary, button.secondary {
+		margin-top: 20px;
+	}
+	
+	/*** SEED SELECTION ***/
+	
+	#seed-selection {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 80px;
+	}
+	.selection-info h2{
+		display: block;
+		font-family: 'Nunito', Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #725647;
+		text-align: center;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	p.seed-selection {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		color: #000;
+		text-align: center;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	/*** CARD CONTAINER ***/
+	
+	.card-container {
+		display: flex;
+		flex: row wrap;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		width: 100%;
+		justify-content: center;
+	}
+	.card {
+		display: block;
+		position: relative;
+		text-align: center;
+		padding:  0 30px 30px 30px;
+	}
+	.card img {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+	.card h3 {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		font-size: 1.2em;
+		margin-top: 20px;
+		font-weight: normal;
+	}
+	
+	/******* FOOTER *******/
+	
+	footer {
+		background-color: #725647;
+		margin-top: 80px;
+		padding: 60px; 
+		clear: both;
+	}
+	.footer-logo {
+		width: 100%;
+	}
+	.footer-logo img {
+		display: block;
+		width: 10%;
+		margin: 0 auto;
+	}
+	.footer-links {
+		margin-top: 60px;
+	}
+	.useful-links {
+		display: inline-block;
+		width: 33%;
+	}
+	.useful-links h3 {
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.useful-links ul {
+		list-style: none;
+	}
+	.useful-links ul li {
+		margin-bottom: 8px;
+	}
+	.useful-links ul li a {
+		text-decoration: none;
+		color: #fff;
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	}
+	span.icon img {
+		height: 20px;
+		margin-right:12px;
+	}
+	.copyright {
+		text-align: center;
+		margin-top: 30px;
+		color: #fff;
+		font-size: 12px;
+	}
 }
 
 /***** SCREENS WITH MAX SIZE OF 768PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 768px) {
-    
+    nav {
+		display: flex;
+	  	width: 100%;
+		flex-direction: column;
+	}
+	nav ul {
+		width: 100%;
+		  padding: 0;
+		  margin: 0;
+	}
+	nav ul li {
+		list-style: none;
+		display: inline-flex;
+		  width: 100%;
+		  justify-content: center;
+		  margin-bottom: 16px;
+	}
+	nav ul li a {
+		margin-left: 0px;
+	}
+	.logo-container {
+		  width: 100%;
+		  display: block;
+	}
+	.logo-container img.logo {
+		width: 160px;
+	}
+	
+	/***** HEADER *******/
+	header {
+		height: auto;
+		background-color: #41AA8B;
+	}
+	.header-content {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		padding-left: 60px;
+		padding-right: 60px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.header-description {
+		display: flex;
+		  flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+	.header-img {
+		width: 100%;
+	}
+	.header-img img {
+		display: block;
+		width: 400px;
+		height: 400px;
+		margin-left: 70px;
+		margin-top: 40px;
+	}
+	
+	h1 {
+		color: #fff;
+		font-family: 'Nunito', Arial, Helvetica, sans-serif;
+		font-size: 2.2em;
+		margin: 0;
+		padding: 0;
+	}
+	p.header {
+		padding-right: 0px;
+		margin-top: 12px;
+	}
+	button.primary {
+		min-width: 100%;
+		margin-right: 0;
+		padding: 14px 20px;
+	}
+	button.secondary {
+		min-width: 100%;
+		padding: 14px 20px;
+	}
+	button.primary, button.secondary {
+		margin-top: 20px;
+	}
+	
+	/*** SEED SELECTION ***/
+	
+	#seed-selection {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-top: 40px;
+		width: 100%;
+	}
+	.selection-info h2{
+		display: block;
+		font-family: 'Nunito', Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #725647;
+		text-align: center;
+		  padding-left: 60px;
+		  padding-right: 60px;
+	}
+	p.seed-selection {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		color: #000;
+		text-align: center;
+		padding-left: 60px;
+		padding-right: 60px;
+		margin-top: 10px;
+	}
+	/*** CARD CONTAINER ***/
+	
+	.card-container {
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 100%;
+		justify-content: center;
+	}
+	.card {
+		display: block;
+		position: relative;
+		width: 50%;
+		text-align: center;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.card img {
+		display: block;
+		width: 35%;
+		margin: 0 auto;
+	}
+	.card h3 {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		font-size: 1.2em;
+		margin-top: 16px;
+		font-weight: normal;
+		margin-bottom: 60px;
+	}
+	
+	/******* FOOTER *******/
+	
+	footer {
+		background-color: #725647;
+		margin-top: 0px;
+		padding: 60px; 
+		  clear: both;
+	}
+	.footer-logo {
+		width: 100%;
+	}
+	.footer-logo img {
+		display: block;
+		width: 35%;
+		margin: 0 auto;
+	}
+	.footer-links {
+		margin-top: 40px;
+	}
+	.useful-links {
+		display: inline-block;
+		width: 100%;
+	  text-align: center;
+	}
+	.useful-links h3 {
+		color: #fff;
+		margin-bottom: 10px;
+	  margin-top: 20px;
+	}
+	.useful-links ul {
+		list-style: none;
+	}
+	.useful-links ul li {
+		margin-bottom: 8px;
+	}
+	.useful-links ul li a {
+		text-decoration: none;
+		color: #fff;
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	}
+	span.icon img {
+		height: 16px;
+		margin-right:12px;
+	}
+	.copyright {
+		margin-top: 10px;
+	}
+	
+	/***** SEEDS PAGE ******/
+	
+	#seed-portfolio {
+		display: flexbox;
+		flex: wrap;
+		width: 100%;
+	}
+	.title {
+		display: block;
+		text-align: center;
+		width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+	.title h2 {
+		  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #725647;
+	}
+	.seed-card-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 0px;
+	}
+	.seed-card {
+		display: block;
+		position: relative;
+	  margin: 0;
+		padding-left: 60px;
+	  padding-right: 60px;
+	  margin-bottom: 30px;
+	}
+	.seed-card-img {
+	  display: block;
+	  width: 100%;
+		position: relative;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+	.seed-card-info {
+		margin-left: 0px;
+	  width: 100%;
+	  text-align: center;
+	}
+	.seed-card-info h3 {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #725647;
+		margin-bottom: 10px;
+	}
+	.seed-card-info ul li {
+		list-style-type: none;
+		margin-bottom: 6px;
+	}
 }
 /***** SCREENS WITH MAX SIZE OF 576PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 576px) {
@@ -22,22 +472,22 @@ nav {
 }
 nav ul {
 	width: 100%;
-  padding: 0;
-  margin: 0;
+  	padding: 0;
+  	margin: 0;
 }
 nav ul li {
 	list-style: none;
 	display: inline-flex;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 16px;
+  	width: 100%;
+  	justify-content: center;
+  	margin-bottom: 16px;
 }
 nav ul li a {
 	margin-left: 0px;
 }
 .logo-container {
-  width: 100%;
-  display: block;
+  	width: 100%;
+  	display: block;
 }
 .logo-container img.logo {
 	width: 160px;
@@ -45,22 +495,22 @@ nav ul li a {
 
 /***** HEADER *******/
 header {
-	  height: auto;
+	height: auto;
     background-color: #41AA8B;
 }
 .header-content {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-  height: auto;
+  	height: auto;
 	padding-left: 60px;
 	padding-right: 60px;
 	margin-top: 20px;
-  margin-bottom: 30px;
+  	margin-bottom: 30px;
 }
 .header-description {
 	display: flex;
-  flex-direction: column;
+  	flex-direction: column;
 	text-align: center;
 	width: 100%;
 }
@@ -72,7 +522,7 @@ header {
 	width: 400px;
 	height: 400px;
 	margin-left: 0px;
-  margin-top: 40px;
+  	margin-top: 40px;
 }
 
 h1 {
@@ -89,11 +539,11 @@ p.header {
 button.primary {
     min-width: 100%;
     margin-right: 0;
-    padding: 18px 24px;
+    padding: 14px 20px;
 }
 button.secondary {
     min-width: 100%;
-    padding: 18px 24px;
+    padding: 14px 20px;
 }
 button.primary, button.secondary {
     margin-top: 20px;
@@ -104,16 +554,16 @@ button.primary, button.secondary {
 #seed-selection {
 	display: flex;
 	flex-direction: column;
-  text-align: center;
+  	text-align: center;
 	margin-top: 40px;
-  width: 100%;
+  	width: 100%;
 }
 .selection-info h2{
-	  display: block;
+	display: block;
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: #725647;
-	  text-align: center;
+	text-align: center;
   	padding-left: 60px;
   	padding-right: 60px;
 }
@@ -121,19 +571,19 @@ p.seed-selection {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     color: #000;
     text-align: center;
-	  padding-left: 60px;
-	  padding-right: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
     margin-top: 10px;
 }
 /*** CARD CONTAINER ***/
 
 .card-container {
-	  display: flex;
-	  flex-direction: column;
-	  margin-top: 40px;
-	  margin-bottom: 40px;
-	  width: 100%;
-	  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+	justify-content: center;
 }
 .card {
     display: block;
@@ -144,15 +594,15 @@ p.seed-selection {
 }
 .card img {
     display: block;
-    width: 100%;
-    max-width: 160px;
+    width: 35%;
     margin: 0 auto;
 }
 .card h3 {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-	  margin-top: 20px;
-	  font-weight: normal;
+	margin-top: 16px;
+    font-weight: normal;
+	margin-bottom: 60px;
 }
 
 /******* FOOTER *******/
@@ -172,7 +622,7 @@ footer {
     margin: 0 auto;
 }
 .footer-links {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 .useful-links {
 	display: inline-block;
