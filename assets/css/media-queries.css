@@ -1,43 +1,40 @@
 /***** SCREENS WITH MAX SIZE OF 1200PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 1200px){
-	/***** SEEDS PAGE ******/
 
-#seed-portfolio {
+	
+	
+/*** SEED SELECTION ***/
+#seed-selection {
+		margin-top: 0px;
+	}
+.card-container {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	width: 100%;
+	justify-content: center;
 }
-.title {
+.card {
 	display: block;
+	position: relative;
 	text-align: center;
-	width: 100%;
-	padding-left: 60px;
-	padding-right: 60px;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	padding:  0;
 }
-.title h2 {
-	font-family: 'Nunito', Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: #725647;
+.card img {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
 }
-.title p {
-	margin-top: 16px;
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	font-size: 1em;
+.card h3 {
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+	margin-top: 20px;
+	font-weight: normal;
 }
-.title p a {
-	color: #000;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-.title p a:hover {
-	border-bottom: 1px solid #41AA8B;
-}
-span {
-	color: #eee;
-}
+
+/*** SEEDS PAGE ***/
 .seed-card-container {
 	display: flex;
 	flex-direction: row;
@@ -109,7 +106,7 @@ span {
 	}
 	/***** HEADER *******/
 	header {
-		height: 100vh;
+		height: 80vh;
 		background-image: url(../images/header-bg.png);
 		background-size: cover;
 		background-position: center;
@@ -150,38 +147,36 @@ span {
 	p.header {
 		color: #fff;
 		margin: 0;
+		margin-bottom: 16px;
 		padding-right: 50px;
 		line-height: 1.4;
 		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 		font-size: 1em;
 		letter-spacing: 0.4px;
 	}
-	button.primary {
-		background-color: #fff;
-		border-radius: 8px;
-		border: none;
-		padding: 12px 24px;
-		max-width: 140px;
-		margin-right: 8px;
+	.button-primary {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 12px;
 	}
-	button.primary:hover {
+	.button-primary:hover {
 		background-color: #41AA8B;
 		color: #fff;
 	}
-	button.secondary {
-		background-color:#2D9475;
-		border-radius: 8px;
-		border: none;
-		padding: 12px 24px;
-		max-width: 140px;
-		color: #fff;
+	.button-secondary {
+		max-width: 100%l;
+		width: 100%;
 	}
-	button.secondary:hover {
+	.button-secondary:hover {
 		background-color:#0b684c;
 		color: #fff;
 	}
-	button.primary, button.secondary {
-		margin-top: 20px;
+	.button-primary, .button-secondary {
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+	}
+	.button-primary:visited, .button-secondary:visited {
+		text-decoration: none;
 	}
 	
 	/*** SEED SELECTION ***/
@@ -190,7 +185,7 @@ span {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin-top: 80px;
+		margin-top: 0px;
 	}
 	.selection-info h2{
 		display: block;
@@ -222,13 +217,15 @@ span {
 	}
 	.card {
 		display: block;
+		width: 50%;
 		position: relative;
 		text-align: center;
-		padding:  0 30px 30px 30px;
+		padding: 0;
+		margin-bottom: 60px;
 	}
 	.card img {
 		display: block;
-		width: 50%;
+		width: 35%;
 		margin: 0 auto;
 	}
 	.card h3 {
@@ -395,7 +392,7 @@ span {
 	}
 	.header-description {
 		display: flex;
-		  flex-direction: column;
+		flex-direction: column;
 		text-align: center;
 		width: 100%;
 	}
@@ -404,9 +401,9 @@ span {
 	}
 	.header-img img {
 		display: block;
-		width: 400px;
-		height: 400px;
-		margin-left: 70px;
+		width: 300px;
+		height: 300px;
+		margin-left: 120px;
 		margin-top: 40px;
 	}
 	
@@ -418,20 +415,24 @@ span {
 		padding: 0;
 	}
 	p.header {
+		color: #fff;
+		margin: 0;
+		margin-bottom: 16px;
 		padding-right: 0px;
-		margin-top: 12px;
+		line-height: 1.4;
+		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		letter-spacing: 0.4px;
 	}
-	button.primary {
-		min-width: 100%;
-		margin-right: 0;
-		padding: 14px 20px;
+	.button-primary {
+		   max-width: 100%;
 	}
-	button.secondary {
-		min-width: 100%;
-		padding: 14px 20px;
+	.button-primary:hover {
+		background-color: #41AA8B;
+		color: #fff;
 	}
-	button.primary, button.secondary {
-		margin-top: 20px;
+	.button-secondary {
+		max-width: 100%;
 	}
 	
 	/*** SEED SELECTION ***/
@@ -604,7 +605,7 @@ span {
   /********** NAVIGATION **********/
 nav {
 	display: flex;
-  width: 100%;
+  	width: 100%;
 	flex-direction: column;
 }
 nav ul {
@@ -656,9 +657,9 @@ header {
 }
 .header-img img {
 	display: block;
-	width: 400px;
-	height: 400px;
-	margin-left: 0px;
+	width: 260px;
+	height: 260px;
+	margin-left: 40px;
   	margin-top: 40px;
 }
 
@@ -670,20 +671,24 @@ h1 {
     padding: 0;
 }
 p.header {
+    color: #fff;
+    margin: 0;
+	margin-bottom: 16px;
     padding-right: 0px;
-    margin-top: 30px;
+    line-height: 1.4;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+    letter-spacing: 0.4px;
 }
-button.primary {
-    min-width: 100%;
-    margin-right: 0;
-    padding: 14px 20px;
+.button-primary {
+   	max-width: 100%;
 }
-button.secondary {
-    min-width: 100%;
-    padding: 14px 20px;
+.button-primary:hover {
+    background-color: #41AA8B;
+	color: #fff;
 }
-button.primary, button.secondary {
-    margin-top: 20px;
+.button-secondary {
+    max-width: 100%;
 }
 
 /*** SEED SELECTION ***/
