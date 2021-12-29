@@ -1,6 +1,6 @@
 /***** SCREENS WITH MAX SIZE OF 1200PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 1200px){
-
+	
 }
 	
 /***** SCREENS WITH MAX SIZE OF 992PX WIDTH ----------------------------------------------------------------------------------- ******/
@@ -210,6 +210,65 @@
 		color: #fff;
 		font-size: 12px;
 	}
+/***** SEEDS PAGE ******/
+	
+#seed-portfolio {
+	display: flexbox;
+	flex: wrap;
+	width: 100%;
+}
+.title {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.title h2 {
+	  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #725647;
+}
+.seed-card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.seed-card {
+	display: block;
+	position: relative;
+  margin: 0;
+	padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+}
+.seed-card-img {
+  display: block;
+  width: 100%;
+	position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.seed-card-info {
+	margin-left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.seed-card-info h3 {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #725647;
+	margin-bottom: 10px;
+}
+.seed-card-info ul li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
+
 }
 
 /***** SCREENS WITH MAX SIZE OF 768PX WIDTH ----------------------------------------------------------------------------------- ******/
@@ -710,6 +769,84 @@ span.icon img {
 .seed-card-info ul li {
 	list-style-type: none;
 	margin-bottom: 6px;
+}
+
+/* CONTACT US PAGE */
+
+#contact {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#contact h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+label {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+input.text-input {
+	width: 100%;
+	background-color: #f8f8f8;
+	color: #000;
+	padding: 6px 6px;
+	border: none;
+	border-radius: 8px;
+	margin-bottom: 12px;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+textarea {
+	width: 100%;
+	background-color: #f8f8f8;
+	border: none;
+	height: 140px;
+	margin-top: 6px;
+	border-radius: 8px;
+	padding: 12px;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+button.contact {
+    padding: 14px 20px;
+    max-width: 100%;
+	width: 100%;
+	margin-bottom: 60px;
+}
+button.contact:hover {
+    background-color:#0b684c;
+	color: #fff;
+}
+
+/***** ABOUT US PAGE ******/
+
+#about {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#about h2 {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #725647;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#about p {
+	line-height: 1.4em;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.about-images {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.about-images img {
+	width: 100%;
+	max-height: 100%;
+	float: left;
+	position: relative;
 }
 
 }
