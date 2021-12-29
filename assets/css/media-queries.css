@@ -46,10 +46,11 @@ span {
 	margin-bottom: 40px;
 }
 .seed-card {
-	display: inline-block;
+	display: inline;
 	position: relative;
 	margin-left: 25px;
 	margin-right: 25px;
+	margin-bottom: 30px;
 }
 .seed-card-img {
 	float: left;
@@ -310,7 +311,7 @@ span {
 .seed-card-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	width: 100%;
 	margin-bottom: 0px;
 }
 .seed-card {
