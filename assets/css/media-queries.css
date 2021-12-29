@@ -1,13 +1,86 @@
 /***** SCREENS WITH MAX SIZE OF 1200PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 1200px){
-	
+	/***** SEEDS PAGE ******/
+
+#seed-portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+.title {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.title h2 {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #725647;
+}
+.title p {
+	margin-top: 16px;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.title p a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.title p a:hover {
+	border-bottom: 1px solid #41AA8B;
+}
+span {
+	color: #eee;
+}
+.seed-card-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.seed-card {
+	display: inline-block;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.seed-card-img {
+	float: left;
+	position: relative;
+}
+.seed-card-info {
+	float: right;
+	position: relative;
+	display: block;
+	position: relative;
+	margin-left: 20px;
+}
+.seed-card-info h3 {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #725647;
+	margin-bottom: 10px;
+}
+.seed-card-info ul li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
 }
 	
 /***** SCREENS WITH MAX SIZE OF 992PX WIDTH ----------------------------------------------------------------------------------- ******/
 @media only screen and (max-width: 992px) {
     nav {
 		display: flex;
-		flex-wrap: row wrap;
+		flex-wrap: wrap;
+		flex-direction: row;
 		justify-content: space-between;
 		background-color: #53BF9F;
 		font-family: "Noto Sans", Arial, Helvetica, sans-serif;
@@ -35,7 +108,7 @@
 	}
 	/***** HEADER *******/
 	header {
-		height: 100vh auto;
+		height: 100vh;
 		background-image: url(../images/header-bg.png);
 		background-size: cover;
 		background-position: center;
@@ -43,7 +116,8 @@
 	}
 	.header-content {
 		display: flex;
-		flex-wrap: row wrap;
+		flex-wrap: wrap;
+		flex-direction: row;
 		width: 100%;
 		padding-left: 60px;
 		padding-right: 60px;
@@ -138,7 +212,8 @@
 	
 	.card-container {
 		display: flex;
-		flex: row wrap;
+		flex-wrap: wrap;
+		flex-direction: row;
 		margin-top: 80px;
 		margin-bottom: 80px;
 		width: 100%;
@@ -213,8 +288,9 @@
 /***** SEEDS PAGE ******/
 	
 #seed-portfolio {
-	display: flexbox;
-	flex: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	width: 100%;
 }
 .title {
@@ -465,8 +541,9 @@
 	/***** SEEDS PAGE ******/
 	
 	#seed-portfolio {
-		display: flexbox;
-		flex: wrap;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
 		width: 100%;
 	}
 	.title {
@@ -715,8 +792,9 @@ span.icon img {
 /***** SEEDS PAGE ******/
 
 #seed-portfolio {
-	display: flexbox;
-	flex: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 	width: 100%;
 }
 .title {

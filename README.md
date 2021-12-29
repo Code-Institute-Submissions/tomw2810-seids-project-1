@@ -6,7 +6,7 @@ Seids primary goal is provide information and key rules when planting seeds for 
 
 <p>In everyday situations you find yourself trying to save money somewhere. This website helps people grow and eat healthy foods for less in a convenient way with a step by step process to help with each type of seed should you need it. The colour scheme through the site is the colours of a plant; a green top to represent leaves with a plain white middle for the essential content and a brown footer to represent the soil which plants grow from. I picked the primary colours from a RGB selector tool and the other variations of the colours come from those two colours. The greens HEX is #53BF9F and the brown is #725647 meaning enough colour contrast between the two elements when scrolling down a short page. You can also see from the image provided the different outcomes on multiple device screen sizes.</p>
 
-<img src="#" alt="A view of various screen sizes showing repsonsiveness of design">
+<img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
   <img src="assets/wireframes/homepage-wireframe.jpg" alt="An image of a wireframe structured for use of a homepage design"><br><br>
