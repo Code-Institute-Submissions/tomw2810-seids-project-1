@@ -2,10 +2,13 @@
 &nbsp;
 <p>The name ‘Seids’ comes from knowing each seed we plant carries their own identity with their shape, colour and flavour therefore creating an ID for each. This is where ‘Seeds’ became ‘Seids’.
 
-Seids primary goal is provide information and key rules when planting seeds for indoor and outdoor plants out as well as edible plants such as strawberry and tomato plants. It contains simple but useful information for both beginners and well established gardeners needing some refreshing advice. Throughout the site it provides easy to view sections whereby the user can interact and note down essential step by step tasks as well l as following other useful links to social media platforms to see if other seed enthusiasts have any additional info from a personal stand point to help with any personal queries on seeds.</p>
+Seids primary goal is provide key bullet points when planting seeds or plants inside or outside. These include edible plants such as strawberry and tomato plants or even snake plants or cheese plants as examples. It contains simple but useful information for both beginners and well established gardeners needing some quick key info for plants. Throughout the site it provides easy to view sections whereby the user can interact and note down essential step by step tasks as well as following other useful links to social media platforms to see if other seed enthusiasts have any additional info from a personal stand point to help with any personal queries on seeds or plants</p>
 
-<p>In everyday situations you find yourself trying to save money somewhere. This website helps people grow and eat healthy foods for less in a convenient way with a step by step process to help with each type of seed should you need it. The colour scheme through the site is the colours of a plant; a green top to represent leaves with a plain white middle for the essential content and a brown footer to represent the soil which plants grow from. I picked the primary colours from a RGB selector tool and the other variations of the colours come from those two colours. The greens HEX is #53BF9F and the brown is #725647 meaning enough colour contrast between the two elements when scrolling down a short page. You can also see from the image provided the different outcomes on multiple device screen sizes.</p>
-
+<p>The colour scheme through the site is the colours of a plant; a green top to represent leaves with a plain white middle for the essential content and a brown footer to represent the soil which plants grow from. I picked the primary colours from a RGB selector tool and the other variations of the colours come from those two colours. The greens HEX is #53BF9F and the brown is #725647 meaning enough colour contrast between the two elements when scrolling down a short page. You can also see from the image provided the different outcomes on multiple device screen sizes.</p>
+<br><br>
+<h3>Link to Deployed Website</h3>
+<p><a href="https://tomw2810.github.io/seids-project-1/">Seids</a>
+  <br>
 <img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
@@ -24,16 +27,16 @@ User Two - A regular visitor looking to add another seed into their collection<b
   <h4>User One:</h4>
   <li>Googles ‘Help with Strawberry seeds’</li>
   <li>Seids appears on the first page displaying information that person wants to read </li>
-  <li>Clicks onto the website and takes you to the ‘Seed Information Page’ </li>
-<li>Once read user one wonders whether we have information on another seed he wants in the future</li>
-  <li>Clicks the link back to the main page displaying those type of seeds.</li>
-<li>Scrolls through to select new seed to look at</li>
-  <li>Clicks on relevant seed and the new page displays the information</li>
+  <li>Clicks onto the website and takes you to the ‘Top Seeds & Plants’ page where the relevant content is nested</li>
+<li>Once read, the user one wonders whether we have information on another seed he wants in the future</li>
+  <li>Clicks the link of the relevant seed or plant to the page displaying a certain criteria of their choosing</li>
+<li>Scrolls through to select new seed or plant to look at</li>
+  <li>Clicks on relevant seed or plant and the new page displays the information</li>
 
   <h4>User Two:</h4>
 <li>Types in the URL from using the website the previous day to see if anything changed or added to the ‘Seeds Information Page’</li>
 <li>When loaded they click the button ‘Choose Seeds’ located in the header section of the website</li>
-<li>When clicked it loads the types of seeds to pick from </li>
+<li>When clicked it loads the types of seeds or plants to pick from</li>
 <li>Chooses their type of seeds they want to look at and takes you to that section of the website</li>
 <li>User two finds their desired information on a seed and leaves the site</li>
 
@@ -236,10 +239,23 @@ By Jason Leung<br>
   <h4>HTML</h4>
   <li>Index - No Issues Found</li>
   <li>Seeds Pages - No Issues Found</li>
+  <li>About Page - No Issues Found</li>
+  <li>Contact Us Page - No Issues Found</li>
 
   <h4>CSS</h4>
-  <li>Shorthand of 'flex' not a valid declaration, this was 5 times as it was something knew you could do but unaware of it being wrong in the validation process.    I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;'</li>
-  <li>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and [asses the validation</li>
+  <p>Shorthand of 'flex' not a valid declaration, this was used 6 times as it was something I knew you could do but unaware of it being wrong in the validation process. I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;' This has now changed passed the validation process.</p>
+  <p>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and passes the validation</p>
+  
+  
+  <h3>Bugs & Fixes</h3>
+  <h4>Issue with Image on Header</h4>
+  <p>After being told I couldnt use bootstrap I was very anxious to see how easy or hard the coding would be without it. The first bug found was that the image on the header was not placed within the div in a way which it could respond how I thought it would. I tried using its own container as well just adding the code inside the container to the left but I cant get it to act the way I would like and essentially should. The media queries for this also caused an issue because I was using percentages and I wasn't fully confident with what i was typing. The code that had been written was not able to stack the content as intended so I asked about what I could do and got told about flex and flexbox to which I had to implement it all across the site to make it work as best as I could. The fix still isnt perfect with the header image not centering properly with the content on smaller devices but now is much more desirable than before.
+    <br>
+  <h4>Image Size on About Page</h4>
+  <p>When I initially uploaded the images for this project I thought that the images could be cropped and fitted correctly forgetting there isnt a declaration like background-image and centering the image. This caused me to have to upload a new image and crop it ready for the space intended. It now has dimensions which work for the content.
+    <br>
+    
+  
 
        
        
