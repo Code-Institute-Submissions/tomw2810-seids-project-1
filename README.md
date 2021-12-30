@@ -204,17 +204,17 @@ By Sanni Sahil<br>
 By Katriona McCarthy<br>
 <a href="https://unsplash.com/photos/3uXRJo-uAPo">Link to Photo</a></p>
 
-<h4>Indoor Plants Page Image 2</h4>
+<h4>Outoor Plants Page Image 2</h4>
 <p>Sourced from unsplash.com<br>
 By Aleksandr Kadykov<br>
 <a href="https://unsplash.com/photos/2KMpCBrEhPQ">Link to Photo</a></p>
 
-<h4>Indoor Plants Page Image 3</h4>
+<h4>Outoor Plants Page Image 3</h4>
 <p>Sourced from unsplash.com<br>
 By Aggie Marder</br>
 <a href="https://unsplash.com/photos/hOy8S93cM8E">Link to Photo</a></p>
 
-<h4>Indoor Plants Page Image 4</h4>
+<h4>Outoor Plants Page Image 4</h4>
 <p>Sourced from unsplash.com<br>
 By Jason Leung<br>
 <a href="https://unsplash.com/photos/rHSxv7aRrVc">Link to Photo</a></p>
@@ -274,13 +274,16 @@ By Jason Leung<br>
   <p>Looking at leahs README.md I was able to understand more about what was meant to go on the document and realised it was a bit more in depth than what I first intially thought. So I thank her document for the appropriate help.</p>
   <h4>Code Institute Tutors</h4>
   <p>When I had a problem with my file paths they were quick and efficient in telling me the resolution to my issue and stayed online to make sure they worked before leaving the chat.
+  <h4>W3Schools</h4>
+  <p>Section on Flexbox was used to quickly understand certain rules for desktop and mobile layouts</p>
    <hr>
   
   <h3>Manual Testing</h3>
   <li>Mobile 320px</li>
   <li>Mobile 375px</li>
   <li>Mobile 425px</li>
-  <li>Tablet 768px</i>
+  <li>Tablet 768px</li>
+  <li>Laptop 1020px</li>
        
        
        
