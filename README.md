@@ -291,6 +291,7 @@ By Jason Leung<br>
   <p>Section on Flexbox was used to quickly understand certain rules for desktop and mobile layouts</p>
    <hr>
   
+  
   <h4>Thanks for reading!</h4>
  
      
