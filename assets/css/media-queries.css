@@ -822,26 +822,27 @@ span.icon img {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 0px;
+	width: 100%;
+	justify-content: center;
 }
 .seed-card {
 	display: block;
 	position: relative;
-  margin: 0;
-	padding-left: 60px;
-  padding-right: 60px;
-  margin-bottom: 30px;
+  	margin: 0;
+	padding-left: 20px;
+  	padding-right: 20px;
+  	margin-bottom: 30px;
 }
 .seed-card-img {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 	position: relative;
-  text-align: center;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .seed-card-info {
 	margin-left: 0px;
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	text-align: center;
 }
 .seed-card-info h3 {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
