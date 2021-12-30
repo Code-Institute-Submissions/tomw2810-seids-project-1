@@ -256,6 +256,11 @@ By Jason Leung<br>
   <p>When I initially uploaded the images for this project I thought that the images could be cropped and fitted correctly forgetting there isnt a declaration like background-image and centering the image. This caused me to have to upload a new image and crop it ready for the space intended. It now has dimensions which work for the content.
     <br>
     
+  <h3>Lighthouse Accesibilty</h3>
+  <li>Performance - 81</li>
+  <li>Accessibility - 97</li>
+  <li>Best Practices - 93</li>
+  <li>SEO - 77</li>
   
 
        
