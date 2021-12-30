@@ -261,6 +261,7 @@ span {
 	color: #eee;
 }
 .seed-card-container {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
