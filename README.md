@@ -79,7 +79,7 @@ User Two - A regular visitor looking to add another seed into their collection<b
   <br>
   <img src="assets/design/contact-us-design.png" alt="a section from contact us page displaying the form">
   <h4>Contact Section</h4>
-  <p>Here we have a basic contact form that users can use to for any queries or concerns about the info provided on the website Seids</p>
+  <p>Here we have a basic contact form that users can fill out with any queries or concerns about the info provided on the website Seids</p>
   &nbsp;
  <hr>
   &nbsp;
