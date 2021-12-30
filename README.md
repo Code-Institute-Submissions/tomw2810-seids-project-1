@@ -7,8 +7,8 @@ Seids primary goal is provide key bullet points when planting seeds or plants in
 <p>The colour scheme through the site is the colours of a plant; a green top to represent leaves with a plain white middle for the essential content and a brown footer to represent the soil which plants grow from. I picked the primary colours from a RGB selector tool and the other variations of the colours come from those two colours. The greens HEX is #53BF9F and the brown is #725647 meaning enough colour contrast between the two elements when scrolling down a short page. You can also see from the image provided the different outcomes on multiple device screen sizes.</p>
 <br><br>
 <h3>Link to Deployed Website</h3>
-<br>
 <p><a href="https://tomw2810.github.io/seids-project-1/">Seids</a>
+  <br>
   <br>
 <img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
