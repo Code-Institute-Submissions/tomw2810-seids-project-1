@@ -233,12 +233,13 @@ By Jason Leung<br>
   <li><a href="http://unsplash.com">Unsplash</a></li>
   &nbsp;
   <h3>Validator Tests<h3>
-    <h4>HTML</h4>
-    <li>Index - No Issues Found</li>
-  
-       <h4>CSS</h4>
-    <li>Shorthand of 'flex' not a valid declaration, this was 5 times as it was something knew you could do but unaware of it being wrong in the validation process. I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;'</li>
-    <li>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and [asses the validation</li>
+  <h4>HTML</h4>
+  <li>Index - No Issues Found</li>
+  <li>Seeds Pages - No Issues Found</li>
+
+  <h4>CSS</h4>
+  <li>Shorthand of 'flex' not a valid declaration, this was 5 times as it was something knew you could do but unaware of it being wrong in the validation process.    I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;'</li>
+  <li>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and [asses the validation</li>
 
        
        
