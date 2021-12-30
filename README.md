@@ -251,12 +251,13 @@ By Jason Leung<br>
   
   <h3>Bugs & Fixes</h3>
   <h4>Issue with Image on Header</h4>
-  <p>After being told I couldnt use bootstrap I was very anxious to see how easy or hard the coding would be without it. The first bug found was that the image on the header was not placed within the div in a way which it could respond how I thought it would. I tried using its own container as well just adding the code inside the container to the left but I cant get it to act the way I would like and essentially should. The media queries for this also caused an issue because I was using percentages and I wasn't fully confident with what i was typing. The code that had been written was not able to stack the content as intended so I asked about what I could do and got told about flex and flexbox to which I had to implement it all across the site to make it work as best as I could. The fix still isnt perfect with the header image not centering properly with the content on smaller devices but now is much more desirable than before.
+  <p>After being told I couldnt use bootstrap I was very anxious to see how easy or hard the coding would be without it. The first bug found was that the image on the header was not placed within the div in a way which it could respond how I thought it would. I tried using its own container as well just adding the code inside the container to the left but I cant get it to act the way I would like and essentially should. The media queries for this also caused an issue because I was using percentages and I wasn't fully confident with what i was typing. The code that had been written was not able to stack the content as intended so I asked about what I could do and got told about flex and flexbox to which I had to implement it all across the site to make it work as best as I could. The fix still isnt perfect with the header image not centering properly with the content on smaller devices but it is now much more desirable than before to a user.
     <br>
   <h4>Image Size on About Page</h4>
   <p>When I initially uploaded the images for this project I thought that the images could be cropped and fitted correctly forgetting there isnt a declaration like background-image and centering the image. This caused me to have to upload a new image and crop it ready for the space intended. It now has dimensions which work for the content.
     <br>
-   
+  <h4>Github and Gitpages</h4>
+  <p>When I had completed the project I wanted to make sure the site was going to work for public use and therefore found the link to the site. Unfortunately the styling was missing from the website completely. It showed the content from the html pages but nothing from the css pages. I contacted a tutor on how to fix it after I couldnt find an answer from Google or from Slack. The tutor pointed out that they run file paths slightly different which I wasnt aware of. I removed the ../ from the file paths for the images and CSS files and it finally worked.
   <hr>
     
   <h3>Lighthouse Accesibilty</h3>
@@ -265,9 +266,21 @@ By Jason Leung<br>
   <li>Best Practices - 93</li>
   <li>SEO - 77</li>
   
-
-       
-       
+<br>
+  <hr>
+ 
+  <h3>Acknowledgements</h3>
+  <h4>Leah Fisher</h4>
+  <p>Looking at leahs README.md I was able to understand more about what was meant to go on the document and realised it was a bit more in depth than what I first intially thought. So I thank her document for the appropriate help.</p>
+  <h4>Code Institute Tutors</h4>
+  <p>When I had a problem with my file paths they were quick and efficient in telling me the resolution to my issue and stayed online to make sure they worked before leaving the chat.
+   <hr>
+  
+  <h3>Manual Testing</h3>
+  <li>Mobile 320px</li>
+  <li>Mobile 375px</li>
+  <li>Mobile 425px</li>
+  <li>Tablet 768px</i>
        
        
        
