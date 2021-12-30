@@ -255,6 +255,9 @@ By Jason Leung<br>
     <br>
   <h4>Github and Gitpages</h4>
   <p>When I had completed the project I wanted to make sure the site was going to work for public use and therefore found the link to the site. Unfortunately the styling was missing from the website completely. It showed the content from the html pages but nothing from the css pages. I contacted a tutor on how to fix it after I couldnt find an answer from Google or from Slack. The tutor pointed out that they run file paths slightly different which I wasnt aware of. I removed the ../ from the file paths for the images and CSS files and it finally worked.
+    <br>
+  <h4>Seeds Page</h4>
+  <p>I still have a slight issue when viewing this page on certain screen sizes as for some reason it stacks off center and I can't seem to make it right. I have searched online for some extra clues as to why but cant seem to find a solution for my code. I have tweaked the code to the best of my current knowledge and aim to come back to this at some point to see what i can change to make it right.
   <hr>
     
   <h3>Lighthouse Accesibilty</h3>
@@ -263,7 +266,20 @@ By Jason Leung<br>
   <li>Best Practices - 93</li>
   <li>SEO - 77</li>
   
-<br>
+  <br>
+  <hr>
+   <h3>Manual Testing</h3>
+  <li>Mobile 320px</li>
+  <li>Mobile 375px</li>
+  <li>Mobile 425px</li>
+  <li>Tablet 768px</li>
+  <li>Laptop 1020px</li>
+  
+  <hr>
+  <h3>Cross Browser Compatibility Check</h3>
+  <li>Safari</li>
+  <li>Firefox</li>
+  <li>Google Chrome (Main Program)</li>
   <hr>
  
   <h3>Acknowledgements</h3>
@@ -275,14 +291,9 @@ By Jason Leung<br>
   <p>Section on Flexbox was used to quickly understand certain rules for desktop and mobile layouts</p>
    <hr>
   
-  <h3>Manual Testing</h3>
-  <li>Mobile 320px</li>
-  <li>Mobile 375px</li>
-  <li>Mobile 425px</li>
-  <li>Tablet 768px</li>
-  <li>Laptop 1020px</li>
-       
-       
+  <h4>Thanks for reading!</h4>
+ 
+     
        
        
        
