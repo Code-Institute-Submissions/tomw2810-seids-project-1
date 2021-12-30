@@ -247,6 +247,7 @@ By Jason Leung<br>
   <p>Shorthand of 'flex' not a valid declaration, this was used 6 times as it was something I knew you could do but unaware of it being wrong in the validation process. I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;' This has now changed passed the validation process.</p>
   <p>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and passes the validation</p>
   
+ <hr>
   
   <h3>Bugs & Fixes</h3>
   <h4>Issue with Image on Header</h4>
@@ -255,6 +256,8 @@ By Jason Leung<br>
   <h4>Image Size on About Page</h4>
   <p>When I initially uploaded the images for this project I thought that the images could be cropped and fitted correctly forgetting there isnt a declaration like background-image and centering the image. This caused me to have to upload a new image and crop it ready for the space intended. It now has dimensions which work for the content.
     <br>
+   
+  <hr>
     
   <h3>Lighthouse Accesibilty</h3>
   <li>Performance - 81</li>
