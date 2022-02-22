@@ -292,6 +292,40 @@ By Jason Leung<br>
    <hr>
   
   
+  
+  <h3>Project Deployment</h3>
+  <h4>Github Pages</h4>
+  <p>The website development was created in the "main" branch. This branch was deployed using GitHub Pages.</p>
+  <br>
+  <p>This site was deployed by completing the following steps:<p>
+  1) Open <a href="https://github.com/">Github</a><br>
+  2) Click on the project to be deployed.<br>
+  3) Navigate to the "Settings".<br>
+  4) Navigate down to the "GitHub Pages".<br>
+  5) Click on "Check it out here!".<br>
+  6) Select the "main" branch and select "Save".<br>
+  7) The link to the live website was ready on the top.<br><br>
+  
+  
+  <h4>Forking This Project</h4>
+  1) Open <a href="https://github.com/">Github</a><br>
+  2) Click on the project to be forked.<br>
+  3) Find the 'Fork' button to the top right of the page.<br>
+  4) Once you click the button the fork will be in your repository..<br><br>
+  
+  <h4>Cloning Project</h4>
+
+  1) Open <a href="https://github.com/">Github</a><br>
+  2) Click on the project to be cloned.<br>
+  3) You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..<br>
+  4) Once you click the button the fork will be in your repository.<br>
+  5) Open a new terminal.<br>
+  6) Change the current working directory to the location that you want the cloned directory.<br>
+  7) Type 'git clone' and paste the URL copied in step 3.<br>
+  8) Press 'Enter' and the project is cloned.<br><br>
+  
+  <hr>
+  
   <h4>Thanks for reading!</h4>
  
      
